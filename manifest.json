@@ -1,11 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Custom CSS Injector",
+  "name": "CSSer",
   "version": "1.0",
-  "description": "Inject custom CSS into the current page",
+  "description": "Inject custom CSS into any webpage with real-time preview",
   "permissions": ["activeTab", "scripting", "storage"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   },
   "icons": {
     "48": "icon48.png",
